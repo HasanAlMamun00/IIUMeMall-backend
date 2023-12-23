@@ -8,7 +8,7 @@ function connectDB() {
   mongoose
     .connect(uri)
     .then(() => {
-        console.log(`Database connection Successfull`);
+        console.log(`Database connection Successfully`);
     })
     .catch((err) => {
       console.log(err);
